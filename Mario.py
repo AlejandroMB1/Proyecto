@@ -360,7 +360,7 @@ class Game:
 	def __init__(self):
 		self.enemigos = []
 		self.jugadores = []
-		self.nivel = 5
+		self.nivel = 1
 		self.powerup =0
 		self.bow = 1 #pow
 		self.tareasprogramadas = []
@@ -778,7 +778,7 @@ class Game:
 
 		#Funcion  que detecta todas las colisiones del juego
 		self.detecthit()
-		self.nivel5()
+		self.nivel1()
 		#loop de la ventana
 		self.v2.mainloop()
 
